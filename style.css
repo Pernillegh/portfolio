@@ -1,0 +1,26 @@
+/*
+ Theme Name:   Astra Child Theme
+ Theme URI:    https://pernillegraffhorup.dk/astra-child-theme/
+ Description:  Astra Child Theme
+ Author:       Pernille Graff Horup
+ Author URI:   https://pernillegraffhorup.dk
+ Template:     astra
+ Version:      1.2.4
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  astrachildtheme
+*/
+
+
+/*fjerner footeren men ikke den del hvor der str copyright
+jeg gr det her fordi elementor ikke reagerede p noget ang. footeren */
+section.elementor-section.elementor-top-section.elementor-element.elementor-element-db88dca.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default {
+    display: none;
+}
+
+/*gør at menuen sidder fast i toppen */
+.main-header-bar-wrap {
+    position: fixed;
+    width: 100%;
+}
